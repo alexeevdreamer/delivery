@@ -102,6 +102,9 @@ docker-compose.dev.yml
 *.bak
 *.backup
 
+# === Личные заметки по заданиям ===
+/docs/module-2-location.md
+
 # === IDE специфичные ===
 *.sublime-workspace
 *.sublime-project
