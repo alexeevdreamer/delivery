@@ -52,7 +52,7 @@ public final class Assignment extends BaseEntity<UUID> {
         return status;
     }
 
-    public UnitResult<Error> complete(Location courierLocation) {
+    UnitResult<Error> complete(Location courierLocation) {
         if (courierLocation == null) {
             return UnitResult.failure(GeneralErrors.valueIsRequired("courierLocation"));
         }
